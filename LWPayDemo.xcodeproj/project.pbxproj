@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A961122212EA29600577FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961121212EA29600577FE9 /* AppDelegate.m */; };
+		1A961125212EA29700577FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961124212EA29700577FE9 /* ViewController.m */; };
+		1A961128212EA29700577FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A961126212EA29700577FE9 /* Main.storyboard */; };
+		1A96112A212EA29700577FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A961129212EA29700577FE9 /* Assets.xcassets */; };
+		1A96112D212EA29700577FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A96112B212EA29700577FE9 /* LaunchScreen.storyboard */; };
+		1A961130212EA29700577FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96112F212EA29700577FE9 /* main.m */; };
+		1A96113A212EA29800577FE9 /* LWPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961139212EA29800577FE9 /* LWPayDemoTests.m */; };
+		1A961145212EA29800577FE9 /* LWPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961144212EA29800577FE9 /* LWPayDemoUITests.m */; };
+		1A961176212EA2C300577FE9 /* LWPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961153212EA2C200577FE9 /* LWPayManager.m */; };
+		1A961177212EA2C300577FE9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A961159212EA2C200577FE9 /* libWeChatSDK.a */; };
+		1A961178212EA2C300577FE9 /* LWPayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96115B212EA2C200577FE9 /* LWPayAppDelegate.m */; };
+		1A961179212EA2C300577FE9 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A96115E212EA2C200577FE9 /* AlipaySDK.bundle */; };
+		1A96117A212EA2C300577FE9 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A96115F212EA2C200577FE9 /* AlipaySDK.framework */; };
+		1A96117B212EA2C300577FE9 /* NSObject+MRInjectionLogicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961162212EA2C200577FE9 /* NSObject+MRInjectionLogicKey.m */; };
+		1A96117C212EA2C300577FE9 /* MRExtendClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961163212EA2C200577FE9 /* MRExtendClass.m */; };
+		1A96117D212EA2C300577FE9 /* MRCheckSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961168212EA2C200577FE9 /* MRCheckSuper.m */; };
+		1A96117E212EA2C300577FE9 /* UIApplication+HookSetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96116B212EA2C200577FE9 /* UIApplication+HookSetDelegate.m */; };
+		1A96117F212EA2C300577FE9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96116E212EA2C200577FE9 /* MBProgressHUD.m */; };
+		1A961180212EA2C300577FE9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A96116F212EA2C200577FE9 /* LICENSE */; };
+		1A961181212EA2C300577FE9 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 1A961172212EA2C200577FE9 /* README.mdown */; };
+		1A961182212EA2C300577FE9 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961173212EA2C200577FE9 /* MBProgressHUD+Extension.m */; };
+		1A961183212EA2C300577FE9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A961174212EA2C200577FE9 /* MBProgressHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A961136212EA29800577FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A961115212EA29600577FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A96111C212EA29600577FE9;
+			remoteInfo = LWPayDemo;
+		};
+		1A961141212EA29800577FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A961115212EA29600577FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A96111C212EA29600577FE9;
+			remoteInfo = LWPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A96111D212EA29600577FE9 /* LWPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A961120212EA29600577FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A961121212EA29600577FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A961123212EA29600577FE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A961124212EA29700577FE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A961127212EA29700577FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A961129212EA29700577FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A96112C212EA29700577FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A96112E212EA29700577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A96112F212EA29700577FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A961135212EA29800577FE9 /* LWPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A961139212EA29800577FE9 /* LWPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPayDemoTests.m; sourceTree = "<group>"; };
+		1A96113B212EA29800577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A961140212EA29800577FE9 /* LWPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A961144212EA29800577FE9 /* LWPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPayDemoUITests.m; sourceTree = "<group>"; };
+		1A961146212EA29800577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A961153212EA2C200577FE9 /* LWPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPayManager.m; sourceTree = "<group>"; };
+		1A961156212EA2C200577FE9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1A961157212EA2C200577FE9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1A961158212EA2C200577FE9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		1A961159212EA2C200577FE9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1A96115A212EA2C200577FE9 /* LWPayHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayHeader.h; sourceTree = "<group>"; };
+		1A96115B212EA2C200577FE9 /* LWPayAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPayAppDelegate.m; sourceTree = "<group>"; };
+		1A96115C212EA2C200577FE9 /* LWPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayManager.h; sourceTree = "<group>"; };
+		1A96115E212EA2C200577FE9 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1A96115F212EA2C200577FE9 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		1A961162212EA2C200577FE9 /* NSObject+MRInjectionLogicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MRInjectionLogicKey.m"; sourceTree = "<group>"; };
+		1A961163212EA2C200577FE9 /* MRExtendClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRExtendClass.m; sourceTree = "<group>"; };
+		1A961164212EA2C200577FE9 /* MRCheckSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCheckSuper.h; sourceTree = "<group>"; };
+		1A961165212EA2C200577FE9 /* NSObject+MRInjectionLogicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MRInjectionLogicKey.h"; sourceTree = "<group>"; };
+		1A961166212EA2C200577FE9 /* MRLogicInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRLogicInjection.h; sourceTree = "<group>"; };
+		1A961167212EA2C200577FE9 /* MRExtendClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRExtendClass.h; sourceTree = "<group>"; };
+		1A961168212EA2C200577FE9 /* MRCheckSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCheckSuper.m; sourceTree = "<group>"; };
+		1A961169212EA2C200577FE9 /* UIApplication+HookSetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+HookSetDelegate.h"; sourceTree = "<group>"; };
+		1A96116A212EA2C200577FE9 /* MRApplicationDelegateInjectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRApplicationDelegateInjectionProtocol.h; sourceTree = "<group>"; };
+		1A96116B212EA2C200577FE9 /* UIApplication+HookSetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+HookSetDelegate.m"; sourceTree = "<group>"; };
+		1A96116C212EA2C200577FE9 /* MRAppDelegateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAppDelegateComponents.h; sourceTree = "<group>"; };
+		1A96116E212EA2C200577FE9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1A96116F212EA2C200577FE9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A961170212EA2C200577FE9 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		1A961171212EA2C200577FE9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1A961172212EA2C200577FE9 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		1A961173212EA2C200577FE9 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		1A961174212EA2C200577FE9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		1A961175212EA2C200577FE9 /* LWPayAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayAppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A96111A212EA29600577FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A961177212EA2C300577FE9 /* libWeChatSDK.a in Frameworks */,
+				1A96117A212EA2C300577FE9 /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A961132212EA29800577FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A96113D212EA29800577FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A961114212EA29600577FE9 = {
+			isa = PBXGroup;
+			children = (
+				1A96111F212EA29600577FE9 /* LWPayDemo */,
+				1A961138212EA29800577FE9 /* LWPayDemoTests */,
+				1A961143212EA29800577FE9 /* LWPayDemoUITests */,
+				1A96111E212EA29600577FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A96111E212EA29600577FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A96111D212EA29600577FE9 /* LWPayDemo.app */,
+				1A961135212EA29800577FE9 /* LWPayDemoTests.xctest */,
+				1A961140212EA29800577FE9 /* LWPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A96111F212EA29600577FE9 /* LWPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A961152212EA2C200577FE9 /* PayModel_1 */,
+				1A961120212EA29600577FE9 /* AppDelegate.h */,
+				1A961121212EA29600577FE9 /* AppDelegate.m */,
+				1A961123212EA29600577FE9 /* ViewController.h */,
+				1A961124212EA29700577FE9 /* ViewController.m */,
+				1A961126212EA29700577FE9 /* Main.storyboard */,
+				1A961129212EA29700577FE9 /* Assets.xcassets */,
+				1A96112B212EA29700577FE9 /* LaunchScreen.storyboard */,
+				1A96112E212EA29700577FE9 /* Info.plist */,
+				1A96112F212EA29700577FE9 /* main.m */,
+			);
+			path = LWPayDemo;
+			sourceTree = "<group>";
+		};
+		1A961138212EA29800577FE9 /* LWPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A961139212EA29800577FE9 /* LWPayDemoTests.m */,
+				1A96113B212EA29800577FE9 /* Info.plist */,
+			);
+			path = LWPayDemoTests;
+			sourceTree = "<group>";
+		};
+		1A961143212EA29800577FE9 /* LWPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A961144212EA29800577FE9 /* LWPayDemoUITests.m */,
+				1A961146212EA29800577FE9 /* Info.plist */,
+			);
+			path = LWPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		1A961152212EA2C200577FE9 /* PayModel_1 */ = {
+			isa = PBXGroup;
+			children = (
+				1A961153212EA2C200577FE9 /* LWPayManager.m */,
+				1A961154212EA2C200577FE9 /* WechatOpenSDK */,
+				1A96115A212EA2C200577FE9 /* LWPayHeader.h */,
+				1A96115B212EA2C200577FE9 /* LWPayAppDelegate.m */,
+				1A96115C212EA2C200577FE9 /* LWPayManager.h */,
+				1A96115D212EA2C200577FE9 /* AliSDK */,
+				1A961160212EA2C200577FE9 /* MRLogicInjection */,
+				1A96116D212EA2C200577FE9 /* MBProgressHUD */,
+				1A961175212EA2C200577FE9 /* LWPayAppDelegate.h */,
+			);
+			path = PayModel_1;
+			sourceTree = "<group>";
+		};
+		1A961154212EA2C200577FE9 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A961155212EA2C200577FE9 /* WechatSDK1.8.2 */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		1A961155212EA2C200577FE9 /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				1A961156212EA2C200577FE9 /* WXApi.h */,
+				1A961157212EA2C200577FE9 /* WXApiObject.h */,
+				1A961158212EA2C200577FE9 /* WechatAuthSDK.h */,
+				1A961159212EA2C200577FE9 /* libWeChatSDK.a */,
+			);
+			path = WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		1A96115D212EA2C200577FE9 /* AliSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A96115E212EA2C200577FE9 /* AlipaySDK.bundle */,
+				1A96115F212EA2C200577FE9 /* AlipaySDK.framework */,
+			);
+			path = AliSDK;
+			sourceTree = "<group>";
+		};
+		1A961160212EA2C200577FE9 /* MRLogicInjection */ = {
+			isa = PBXGroup;
+			children = (
+				1A961161212EA2C200577FE9 /* Classes */,
+				1A961169212EA2C200577FE9 /* UIApplication+HookSetDelegate.h */,
+				1A96116A212EA2C200577FE9 /* MRApplicationDelegateInjectionProtocol.h */,
+				1A96116B212EA2C200577FE9 /* UIApplication+HookSetDelegate.m */,
+				1A96116C212EA2C200577FE9 /* MRAppDelegateComponents.h */,
+			);
+			path = MRLogicInjection;
+			sourceTree = "<group>";
+		};
+		1A961161212EA2C200577FE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A961162212EA2C200577FE9 /* NSObject+MRInjectionLogicKey.m */,
+				1A961163212EA2C200577FE9 /* MRExtendClass.m */,
+				1A961164212EA2C200577FE9 /* MRCheckSuper.h */,
+				1A961165212EA2C200577FE9 /* NSObject+MRInjectionLogicKey.h */,
+				1A961166212EA2C200577FE9 /* MRLogicInjection.h */,
+				1A961167212EA2C200577FE9 /* MRExtendClass.h */,
+				1A961168212EA2C200577FE9 /* MRCheckSuper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A96116D212EA2C200577FE9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A96116E212EA2C200577FE9 /* MBProgressHUD.m */,
+				1A96116F212EA2C200577FE9 /* LICENSE */,
+				1A961170212EA2C200577FE9 /* MBProgressHUD+Extension.h */,
+				1A961171212EA2C200577FE9 /* MBProgressHUD.h */,
+				1A961172212EA2C200577FE9 /* README.mdown */,
+				1A961173212EA2C200577FE9 /* MBProgressHUD+Extension.m */,
+				1A961174212EA2C200577FE9 /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A96111C212EA29600577FE9 /* LWPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A961149212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemo" */;
+			buildPhases = (
+				1A961119212EA29600577FE9 /* Sources */,
+				1A96111A212EA29600577FE9 /* Frameworks */,
+				1A96111B212EA29600577FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWPayDemo;
+			productName = LWPayDemo;
+			productReference = 1A96111D212EA29600577FE9 /* LWPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A961134212EA29800577FE9 /* LWPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A96114C212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemoTests" */;
+			buildPhases = (
+				1A961131212EA29800577FE9 /* Sources */,
+				1A961132212EA29800577FE9 /* Frameworks */,
+				1A961133212EA29800577FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A961137212EA29800577FE9 /* PBXTargetDependency */,
+			);
+			name = LWPayDemoTests;
+			productName = LWPayDemoTests;
+			productReference = 1A961135212EA29800577FE9 /* LWPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A96113F212EA29800577FE9 /* LWPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A96114F212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemoUITests" */;
+			buildPhases = (
+				1A96113C212EA29800577FE9 /* Sources */,
+				1A96113D212EA29800577FE9 /* Frameworks */,
+				1A96113E212EA29800577FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A961142212EA29800577FE9 /* PBXTargetDependency */,
+			);
+			name = LWPayDemoUITests;
+			productName = LWPayDemoUITests;
+			productReference = 1A961140212EA29800577FE9 /* LWPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A961115212EA29600577FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = weiyuxiang;
+				TargetAttributes = {
+					1A96111C212EA29600577FE9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1A961134212EA29800577FE9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1A96111C212EA29600577FE9;
+					};
+					1A96113F212EA29800577FE9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1A96111C212EA29600577FE9;
+					};
+				};
+			};
+			buildConfigurationList = 1A961118212EA29600577FE9 /* Build configuration list for PBXProject "LWPayDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A961114212EA29600577FE9;
+			productRefGroup = 1A96111E212EA29600577FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A96111C212EA29600577FE9 /* LWPayDemo */,
+				1A961134212EA29800577FE9 /* LWPayDemoTests */,
+				1A96113F212EA29800577FE9 /* LWPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A96111B212EA29600577FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A96112D212EA29700577FE9 /* LaunchScreen.storyboard in Resources */,
+				1A96112A212EA29700577FE9 /* Assets.xcassets in Resources */,
+				1A961179212EA2C300577FE9 /* AlipaySDK.bundle in Resources */,
+				1A961181212EA2C300577FE9 /* README.mdown in Resources */,
+				1A961128212EA29700577FE9 /* Main.storyboard in Resources */,
+				1A961180212EA2C300577FE9 /* LICENSE in Resources */,
+				1A961183212EA2C300577FE9 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A961133212EA29800577FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A96113E212EA29800577FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A961119212EA29600577FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A961125212EA29700577FE9 /* ViewController.m in Sources */,
+				1A961182212EA2C300577FE9 /* MBProgressHUD+Extension.m in Sources */,
+				1A961176212EA2C300577FE9 /* LWPayManager.m in Sources */,
+				1A96117C212EA2C300577FE9 /* MRExtendClass.m in Sources */,
+				1A961178212EA2C300577FE9 /* LWPayAppDelegate.m in Sources */,
+				1A961130212EA29700577FE9 /* main.m in Sources */,
+				1A96117D212EA2C300577FE9 /* MRCheckSuper.m in Sources */,
+				1A96117E212EA2C300577FE9 /* UIApplication+HookSetDelegate.m in Sources */,
+				1A96117F212EA2C300577FE9 /* MBProgressHUD.m in Sources */,
+				1A961122212EA29600577FE9 /* AppDelegate.m in Sources */,
+				1A96117B212EA2C300577FE9 /* NSObject+MRInjectionLogicKey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A961131212EA29800577FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A96113A212EA29800577FE9 /* LWPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A96113C212EA29800577FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A961145212EA29800577FE9 /* LWPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A961137212EA29800577FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A96111C212EA29600577FE9 /* LWPayDemo */;
+			targetProxy = 1A961136212EA29800577FE9 /* PBXContainerItemProxy */;
+		};
+		1A961142212EA29800577FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A96111C212EA29600577FE9 /* LWPayDemo */;
+			targetProxy = 1A961141212EA29800577FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A961126212EA29700577FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A961127212EA29700577FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A96112B212EA29700577FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A96112C212EA29700577FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A961147212EA29800577FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A961148212EA29800577FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A96114A212EA29800577FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/AliSDK",
+				);
+				INFOPLIST_FILE = LWPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/WechatOpenSDK/WechatSDK1.8.2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A96114B212EA29800577FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/AliSDK",
+				);
+				INFOPLIST_FILE = LWPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/WechatOpenSDK/WechatSDK1.8.2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A96114D212EA29800577FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				INFOPLIST_FILE = LWPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWPayDemo.app/LWPayDemo";
+			};
+			name = Debug;
+		};
+		1A96114E212EA29800577FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				INFOPLIST_FILE = LWPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWPayDemo.app/LWPayDemo";
+			};
+			name = Release;
+		};
+		1A961150212EA29800577FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				INFOPLIST_FILE = LWPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWPayDemo;
+			};
+			name = Debug;
+		};
+		1A961151212EA29800577FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86WYGE98BR;
+				INFOPLIST_FILE = LWPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWPayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A961118212EA29600577FE9 /* Build configuration list for PBXProject "LWPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A961147212EA29800577FE9 /* Debug */,
+				1A961148212EA29800577FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A961149212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A96114A212EA29800577FE9 /* Debug */,
+				1A96114B212EA29800577FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A96114C212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A96114D212EA29800577FE9 /* Debug */,
+				1A96114E212EA29800577FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A96114F212EA29800577FE9 /* Build configuration list for PBXNativeTarget "LWPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A961150212EA29800577FE9 /* Debug */,
+				1A961151212EA29800577FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A961115212EA29600577FE9 /* Project object */;
+}
