@@ -9,7 +9,7 @@
 #ifndef LWPayHeader_h
 #define LWPayHeader_h
 
-#import "WXApi.h"
+#import "WechatOpenSDK/WechatSDK1.8.2/WXApi.h"
 #import <AlipaySDK/AlipaySDK.h>
 #import "LWPayManager.h"
 #import "MBProgressHUD.h"
