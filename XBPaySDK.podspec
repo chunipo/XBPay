@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/chunipo/XBPay.git", :tag => s.version }
     s.source_files  = "XBPaySDK/*.{h,m}"
     #s.resources          = "XBPaySDK/CFMobAdSDK.bundle"
-    #s.vendored_libraries = 'XBPaySDK/a/*.a'
+    s.vendored_libraries = "XBPaySDK/a/*.a"
     s.frameworks = 'Foundation', 'UIKit'
     #s.vendored_frameworks = 'CFMobAdSDK.framework'
     s.requires_arc = true
