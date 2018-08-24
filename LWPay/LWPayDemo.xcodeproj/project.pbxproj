@@ -15,6 +15,7 @@
 		1A961130212EA29700577FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96112F212EA29700577FE9 /* main.m */; };
 		1A96113A212EA29800577FE9 /* LWPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961139212EA29800577FE9 /* LWPayDemoTests.m */; };
 		1A961145212EA29800577FE9 /* LWPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961144212EA29800577FE9 /* LWPayDemoUITests.m */; };
+		1A961194212FCC7900577FE9 /* newpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A961191212FCC7900577FE9 /* newpay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		1A961140212EA29800577FE9 /* LWPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A961144212EA29800577FE9 /* LWPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPayDemoUITests.m; sourceTree = "<group>"; };
 		1A961146212EA29800577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A961191212FCC7900577FE9 /* newpay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = newpay.a; sourceTree = "<group>"; };
+		1A961192212FCC7900577FE9 /* LWPayHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayHeader.h; sourceTree = "<group>"; };
+		1A961193212FCC7900577FE9 /* LWPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A961194212FCC7900577FE9 /* newpay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 		1A96111F212EA29600577FE9 /* LWPayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A961190212FCC7900577FE9 /* XBPaySDK */,
 				1A961120212EA29600577FE9 /* AppDelegate.h */,
 				1A961121212EA29600577FE9 /* AppDelegate.m */,
 				1A961123212EA29600577FE9 /* ViewController.h */,
@@ -130,6 +136,16 @@
 				1A961146212EA29800577FE9 /* Info.plist */,
 			);
 			path = LWPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		1A961190212FCC7900577FE9 /* XBPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A961191212FCC7900577FE9 /* newpay.a */,
+				1A961192212FCC7900577FE9 /* LWPayHeader.h */,
+				1A961193212FCC7900577FE9 /* LWPayManager.h */,
+			);
+			path = XBPaySDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
