@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "XBPaySDK"
-    s.version      = "0.1.0"
+    s.version      = "0.1.2"
     s.ios.deployment_target = '8.0'
     s.summary      = "支付集成SDK，一个简单的支付集成工具."
     s.homepage     = "https://github.com/chunipo/XBPay"
