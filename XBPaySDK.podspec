@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author             = { "Simple" => "372718588@qq.com" }
     s.source       = { :git => "https://github.com/chunipo/XBPay.git", :tag => s.version }
     #s.source_files  = "XBPaySDK/*.{h,m}"
-    #s.source_files  = "XBPaySDK/a_test_27.h"
+    s.source_files  = "XBPaySDK/a_test_27.h"
     #s.resources          = "XBPaySDK/CFMobAdSDK.bundle"
     #s.ios.vendored_libraries = 'XBPaySDK/test27.a'
     s.frameworks = 'Foundation', 'UIKit'
