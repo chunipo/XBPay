@@ -10,30 +10,31 @@
 #import "LWPayHeader.h"
 
 @interface LWPayManager : NSObject
-
-+ (instancetype)shared;
 /***************微信appkey，只读******************/
 @property (nonatomic ,strong, readonly) NSString *wxkey;
+/** 初始化 */
++ (instancetype)shared;
 /** 添加各种支付的appkey */
-- (void)addAlipayKey:(NSString *)alipayKey wxKey:(NSString *)wxKey paypalProductKey:(NSString *)paypalProductKey paypalReleseKey:(NSString *)paypalReleseKey;
+- (void)addAlipayKey:(NSString *)alipayKey wxKey:(NSString *)wxKey paypalProductKey:(NSString *)paypalProductKey paypalSandboxKey:(NSString *)paypalSandboxKey;
 
 /****************支付宝******************/
-
 /* 调起支付宝支付 */
 - (void)submitAlipayOrder:(NSString *)payOrder;
-/** 增加支付宝支付监听 */
-- (void)addAliPayObSever;
 /** 支付回调block */
 @property (nonatomic, copy) void (^alipayHandle)(NSString *code);
 
 
 /****************微信******************/
-
 //调起微信支付
 - (void)submitWxReq:(PayReq *)request;
-/* 微信监听 */
-- (void)addWxObSever;
 /** 支付回调block */
 @property (nonatomic, copy) void (^wxPayHandle)(NSString *code);
+
+/****************paypal******************/
+/* 提交订单,并调起paypal */
+- (void)submitPaypal:(PayPalPayment *)payment Sanbox:(BOOL)isSanbox;
+
+/** 支付回调block */
+@property (nonatomic, copy) void (^paypalHandle)(PayPalPayment *payment);
 
 @end

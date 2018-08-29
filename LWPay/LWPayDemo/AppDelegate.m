@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "LWPayManager.h"
+
+#define WX_appID     @"wx056d93262f42bd10"
+#define Alipay_appID @"qtmAlipaySDK"
+#define PaypalProductID @"ATvwjonPL4F_iPY8GEc7l5HR4x4erG17yrZeSznyYk5u9gZMd5WfpSXbmGaTUMFu5cdPLUiW1FigzVOo"
+#define PaypalSanboxID @"Ab3mG0x7lN7P8TplJ-0hvoLHYwtY6OZO9j_n4IAkGIHEgO2rpYHMD-O0WW5OWAbxOGptZ1XNvtutAmFx"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +24,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[LWPayManager shared] addAlipayKey:Alipay_appID wxKey:WX_appID paypalProductKey:PaypalProductID paypalSandboxKey:PaypalSanboxID];
     return YES;
 }
 

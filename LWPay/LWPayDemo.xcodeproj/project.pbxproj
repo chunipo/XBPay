@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A545CB721363DBB00C5133A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CB621363DBB00C5133A /* CoreMotion.framework */; };
+		1A545CB921363DC400C5133A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CB821363DC400C5133A /* CFNetwork.framework */; };
+		1A545CBB21363DCD00C5133A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CBA21363DCD00C5133A /* Foundation.framework */; };
+		1A545CBD21363DD400C5133A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CBC21363DD400C5133A /* UIKit.framework */; };
+		1A545CBF21363DDC00C5133A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CBE21363DDC00C5133A /* CoreText.framework */; };
+		1A545CC121363DE500C5133A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CC021363DE500C5133A /* QuartzCore.framework */; };
+		1A545CC321363DEF00C5133A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CC221363DEF00C5133A /* libz.tbd */; };
+		1A545CC521363DF700C5133A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CC421363DF700C5133A /* libc++.tbd */; };
+		1A545CC721363DFE00C5133A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CC621363DFE00C5133A /* CoreTelephony.framework */; };
+		1A545CC921363E0500C5133A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CC821363E0500C5133A /* SystemConfiguration.framework */; };
+		1A545CCB21363E0C00C5133A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CCA21363E0C00C5133A /* CoreGraphics.framework */; };
+		1A545CCD21363E1400C5133A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CCC21363E1400C5133A /* libsqlite3.tbd */; };
+		1A545CEF2136423C00C5133A /* NSObject+MRInjectionLogicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CD12136423A00C5133A /* NSObject+MRInjectionLogicKey.m */; };
+		1A545CF02136423C00C5133A /* MRExtendClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CD22136423A00C5133A /* MRExtendClass.m */; };
+		1A545CF12136423C00C5133A /* MRCheckSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CD72136423A00C5133A /* MRCheckSuper.m */; };
+		1A545CF22136423C00C5133A /* UIApplication+HookSetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CDA2136423A00C5133A /* UIApplication+HookSetDelegate.m */; };
+		1A545CF42136423C00C5133A /* LWPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CE22136423B00C5133A /* LWPayManager.m */; };
+		1A545CF52136423C00C5133A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A545CE42136423C00C5133A /* AlipaySDK.bundle */; };
+		1A545CF72136423C00C5133A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CE72136423C00C5133A /* MBProgressHUD.m */; };
+		1A545CF82136423C00C5133A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A545CE82136423C00C5133A /* LICENSE */; };
+		1A545CF92136423C00C5133A /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 1A545CEB2136423C00C5133A /* README.mdown */; };
+		1A545CFA2136423C00C5133A /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CEC2136423C00C5133A /* MBProgressHUD+Extension.m */; };
+		1A545CFB2136423C00C5133A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A545CED2136423C00C5133A /* MBProgressHUD.bundle */; };
+		1A545CFC2136423C00C5133A /* LWPayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A545CEE2136423C00C5133A /* LWPayAppDelegate.m */; };
+		1A545D01213646CE00C5133A /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CE52136423C00C5133A /* AlipaySDK.framework */; };
+		1A545D022136474200C5133A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545CE12136423B00C5133A /* libWeChatSDK.a */; };
+		1A545D04213649E400C5133A /* 导入前看一下 in Resources */ = {isa = PBXBuildFile; fileRef = 1A545D03213649E400C5133A /* 导入前看一下 */; };
+		1A545D1A21367D8C00C5133A /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D1921367D8C00C5133A /* libPayPalMobile.a */; };
+		1A545D1C2136809000C5133A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D1B2136808F00C5133A /* Accelerate.framework */; };
+		1A545D1E213680EA00C5133A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D1D213680E900C5133A /* SafariServices.framework */; };
+		1A545D20213680F400C5133A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D1F213680F400C5133A /* MobileCoreServices.framework */; };
+		1A545D22213680FE00C5133A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D21213680FE00C5133A /* MessageUI.framework */; };
+		1A545D242136810A00C5133A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D232136810A00C5133A /* CoreMedia.framework */; };
+		1A545D26213687CA00C5133A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D25213687CA00C5133A /* AudioToolbox.framework */; };
+		1A545D28213687EF00C5133A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D27213687EF00C5133A /* AVFoundation.framework */; };
+		1A545D2A213687F800C5133A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A545D29213687F800C5133A /* CoreLocation.framework */; };
 		1A961122212EA29600577FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961121212EA29600577FE9 /* AppDelegate.m */; };
 		1A961125212EA29700577FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961124212EA29700577FE9 /* ViewController.m */; };
 		1A961128212EA29700577FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A961126212EA29700577FE9 /* Main.storyboard */; };
 		1A96112A212EA29700577FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A961129212EA29700577FE9 /* Assets.xcassets */; };
 		1A96112D212EA29700577FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A96112B212EA29700577FE9 /* LaunchScreen.storyboard */; };
 		1A961130212EA29700577FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96112F212EA29700577FE9 /* main.m */; };
-		1A96113A212EA29800577FE9 /* LWPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961139212EA29800577FE9 /* LWPayDemoTests.m */; };
-		1A961145212EA29800577FE9 /* LWPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961144212EA29800577FE9 /* LWPayDemoUITests.m */; };
-		1A961194212FCC7900577FE9 /* newpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A961191212FCC7900577FE9 /* newpay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +69,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A545CB621363DBB00C5133A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1A545CB821363DC400C5133A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A545CBA21363DCD00C5133A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A545CBC21363DD400C5133A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A545CBE21363DDC00C5133A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1A545CC021363DE500C5133A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A545CC221363DEF00C5133A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1A545CC421363DF700C5133A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1A545CC621363DFE00C5133A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1A545CC821363E0500C5133A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A545CCA21363E0C00C5133A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A545CCC21363E1400C5133A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1A545CCE2136423A00C5133A /* LWPayAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayAppDelegate.h; sourceTree = "<group>"; };
+		1A545CD12136423A00C5133A /* NSObject+MRInjectionLogicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MRInjectionLogicKey.m"; sourceTree = "<group>"; };
+		1A545CD22136423A00C5133A /* MRExtendClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRExtendClass.m; sourceTree = "<group>"; };
+		1A545CD32136423A00C5133A /* MRCheckSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCheckSuper.h; sourceTree = "<group>"; };
+		1A545CD42136423A00C5133A /* NSObject+MRInjectionLogicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MRInjectionLogicKey.h"; sourceTree = "<group>"; };
+		1A545CD52136423A00C5133A /* MRLogicInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRLogicInjection.h; sourceTree = "<group>"; };
+		1A545CD62136423A00C5133A /* MRExtendClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRExtendClass.h; sourceTree = "<group>"; };
+		1A545CD72136423A00C5133A /* MRCheckSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCheckSuper.m; sourceTree = "<group>"; };
+		1A545CD82136423A00C5133A /* UIApplication+HookSetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+HookSetDelegate.h"; sourceTree = "<group>"; };
+		1A545CD92136423A00C5133A /* MRApplicationDelegateInjectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRApplicationDelegateInjectionProtocol.h; sourceTree = "<group>"; };
+		1A545CDA2136423A00C5133A /* UIApplication+HookSetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+HookSetDelegate.m"; sourceTree = "<group>"; };
+		1A545CDB2136423A00C5133A /* MRAppDelegateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAppDelegateComponents.h; sourceTree = "<group>"; };
+		1A545CDE2136423B00C5133A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1A545CDF2136423B00C5133A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1A545CE02136423B00C5133A /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		1A545CE12136423B00C5133A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1A545CE22136423B00C5133A /* LWPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPayManager.m; sourceTree = "<group>"; };
+		1A545CE42136423C00C5133A /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1A545CE52136423C00C5133A /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		1A545CE72136423C00C5133A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1A545CE82136423C00C5133A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A545CE92136423C00C5133A /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		1A545CEA2136423C00C5133A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1A545CEB2136423C00C5133A /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		1A545CEC2136423C00C5133A /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		1A545CED2136423C00C5133A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		1A545CEE2136423C00C5133A /* LWPayAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPayAppDelegate.m; sourceTree = "<group>"; };
+		1A545D03213649E400C5133A /* 导入前看一下 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "导入前看一下"; sourceTree = "<group>"; };
+		1A545D1221367D8C00C5133A /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		1A545D1321367D8C00C5133A /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		1A545D1421367D8C00C5133A /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		1A545D1521367D8C00C5133A /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		1A545D1621367D8C00C5133A /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		1A545D1721367D8C00C5133A /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		1A545D1821367D8C00C5133A /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		1A545D1921367D8C00C5133A /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		1A545D1B2136808F00C5133A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1A545D1D213680E900C5133A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		1A545D1F213680F400C5133A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1A545D21213680FE00C5133A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1A545D232136810A00C5133A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1A545D25213687CA00C5133A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A545D27213687EF00C5133A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A545D29213687F800C5133A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1A96111D212EA29600577FE9 /* LWPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A961120212EA29600577FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A961121212EA29600577FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +136,7 @@
 		1A96112E212EA29700577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A96112F212EA29700577FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A961135212EA29800577FE9 /* LWPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A961139212EA29800577FE9 /* LWPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPayDemoTests.m; sourceTree = "<group>"; };
-		1A96113B212EA29800577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A961140212EA29800577FE9 /* LWPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A961144212EA29800577FE9 /* LWPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPayDemoUITests.m; sourceTree = "<group>"; };
-		1A961146212EA29800577FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A961191212FCC7900577FE9 /* newpay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = newpay.a; sourceTree = "<group>"; };
 		1A961192212FCC7900577FE9 /* LWPayHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayHeader.h; sourceTree = "<group>"; };
 		1A961193212FCC7900577FE9 /* LWPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPayManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +146,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A961194212FCC7900577FE9 /* newpay.a in Frameworks */,
+				1A545CC921363E0500C5133A /* SystemConfiguration.framework in Frameworks */,
+				1A545D20213680F400C5133A /* MobileCoreServices.framework in Frameworks */,
+				1A545D242136810A00C5133A /* CoreMedia.framework in Frameworks */,
+				1A545D2A213687F800C5133A /* CoreLocation.framework in Frameworks */,
+				1A545D28213687EF00C5133A /* AVFoundation.framework in Frameworks */,
+				1A545D26213687CA00C5133A /* AudioToolbox.framework in Frameworks */,
+				1A545D22213680FE00C5133A /* MessageUI.framework in Frameworks */,
+				1A545D1E213680EA00C5133A /* SafariServices.framework in Frameworks */,
+				1A545D1C2136809000C5133A /* Accelerate.framework in Frameworks */,
+				1A545CCD21363E1400C5133A /* libsqlite3.tbd in Frameworks */,
+				1A545CCB21363E0C00C5133A /* CoreGraphics.framework in Frameworks */,
+				1A545D1A21367D8C00C5133A /* libPayPalMobile.a in Frameworks */,
+				1A545CC721363DFE00C5133A /* CoreTelephony.framework in Frameworks */,
+				1A545D022136474200C5133A /* libWeChatSDK.a in Frameworks */,
+				1A545CC521363DF700C5133A /* libc++.tbd in Frameworks */,
+				1A545CC321363DEF00C5133A /* libz.tbd in Frameworks */,
+				1A545D01213646CE00C5133A /* AlipaySDK.framework in Frameworks */,
+				1A545CC121363DE500C5133A /* QuartzCore.framework in Frameworks */,
+				1A545CBF21363DDC00C5133A /* CoreText.framework in Frameworks */,
+				1A545CBD21363DD400C5133A /* UIKit.framework in Frameworks */,
+				1A545CBB21363DCD00C5133A /* Foundation.framework in Frameworks */,
+				1A545CB921363DC400C5133A /* CFNetwork.framework in Frameworks */,
+				1A545CB721363DBB00C5133A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +189,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A545CB521363DBA00C5133A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A545D29213687F800C5133A /* CoreLocation.framework */,
+				1A545D27213687EF00C5133A /* AVFoundation.framework */,
+				1A545D25213687CA00C5133A /* AudioToolbox.framework */,
+				1A545D232136810A00C5133A /* CoreMedia.framework */,
+				1A545D21213680FE00C5133A /* MessageUI.framework */,
+				1A545D1F213680F400C5133A /* MobileCoreServices.framework */,
+				1A545D1D213680E900C5133A /* SafariServices.framework */,
+				1A545D1B2136808F00C5133A /* Accelerate.framework */,
+				1A545CCC21363E1400C5133A /* libsqlite3.tbd */,
+				1A545CCA21363E0C00C5133A /* CoreGraphics.framework */,
+				1A545CC821363E0500C5133A /* SystemConfiguration.framework */,
+				1A545CC621363DFE00C5133A /* CoreTelephony.framework */,
+				1A545CC421363DF700C5133A /* libc++.tbd */,
+				1A545CC221363DEF00C5133A /* libz.tbd */,
+				1A545CC021363DE500C5133A /* QuartzCore.framework */,
+				1A545CBE21363DDC00C5133A /* CoreText.framework */,
+				1A545CBC21363DD400C5133A /* UIKit.framework */,
+				1A545CBA21363DCD00C5133A /* Foundation.framework */,
+				1A545CB821363DC400C5133A /* CFNetwork.framework */,
+				1A545CB621363DBB00C5133A /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A545CCF2136423A00C5133A /* MRLogicInjection */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CD02136423A00C5133A /* Classes */,
+				1A545CD82136423A00C5133A /* UIApplication+HookSetDelegate.h */,
+				1A545CD92136423A00C5133A /* MRApplicationDelegateInjectionProtocol.h */,
+				1A545CDA2136423A00C5133A /* UIApplication+HookSetDelegate.m */,
+				1A545CDB2136423A00C5133A /* MRAppDelegateComponents.h */,
+			);
+			path = MRLogicInjection;
+			sourceTree = "<group>";
+		};
+		1A545CD02136423A00C5133A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CD12136423A00C5133A /* NSObject+MRInjectionLogicKey.m */,
+				1A545CD22136423A00C5133A /* MRExtendClass.m */,
+				1A545CD32136423A00C5133A /* MRCheckSuper.h */,
+				1A545CD42136423A00C5133A /* NSObject+MRInjectionLogicKey.h */,
+				1A545CD52136423A00C5133A /* MRLogicInjection.h */,
+				1A545CD62136423A00C5133A /* MRExtendClass.h */,
+				1A545CD72136423A00C5133A /* MRCheckSuper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A545CDC2136423B00C5133A /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CDD2136423B00C5133A /* WechatSDK1.8.2 */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		1A545CDD2136423B00C5133A /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CDE2136423B00C5133A /* WXApi.h */,
+				1A545CDF2136423B00C5133A /* WXApiObject.h */,
+				1A545CE02136423B00C5133A /* WechatAuthSDK.h */,
+				1A545CE12136423B00C5133A /* libWeChatSDK.a */,
+			);
+			path = WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		1A545CE32136423C00C5133A /* AliSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CE42136423C00C5133A /* AlipaySDK.bundle */,
+				1A545CE52136423C00C5133A /* AlipaySDK.framework */,
+			);
+			path = AliSDK;
+			sourceTree = "<group>";
+		};
+		1A545CE62136423C00C5133A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A545CE72136423C00C5133A /* MBProgressHUD.m */,
+				1A545CE82136423C00C5133A /* LICENSE */,
+				1A545CE92136423C00C5133A /* MBProgressHUD+Extension.h */,
+				1A545CEA2136423C00C5133A /* MBProgressHUD.h */,
+				1A545CEB2136423C00C5133A /* README.mdown */,
+				1A545CEC2136423C00C5133A /* MBProgressHUD+Extension.m */,
+				1A545CED2136423C00C5133A /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1A545D00213645A700C5133A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1A545D1121367D8C00C5133A /* PayPalMobile */,
+				1A545CE62136423C00C5133A /* MBProgressHUD */,
+				1A545CCF2136423A00C5133A /* MRLogicInjection */,
+				1A545CDC2136423B00C5133A /* WechatOpenSDK */,
+				1A545CE32136423C00C5133A /* AliSDK */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1A545D052136718800C5133A /* LWPay */ = {
+			isa = PBXGroup;
+			children = (
+				1A961192212FCC7900577FE9 /* LWPayHeader.h */,
+				1A545CCE2136423A00C5133A /* LWPayAppDelegate.h */,
+				1A545CEE2136423C00C5133A /* LWPayAppDelegate.m */,
+				1A545CE22136423B00C5133A /* LWPayManager.m */,
+			);
+			path = LWPay;
+			sourceTree = "<group>";
+		};
+		1A545D1121367D8C00C5133A /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				1A545D1221367D8C00C5133A /* PayPalMobile.h */,
+				1A545D1321367D8C00C5133A /* PayPalPaymentViewController.h */,
+				1A545D1421367D8C00C5133A /* PayPalPayment.h */,
+				1A545D1521367D8C00C5133A /* PayPalOAuthScopes.h */,
+				1A545D1621367D8C00C5133A /* PayPalFuturePaymentViewController.h */,
+				1A545D1721367D8C00C5133A /* PayPalProfileSharingViewController.h */,
+				1A545D1821367D8C00C5133A /* PayPalConfiguration.h */,
+				1A545D1921367D8C00C5133A /* libPayPalMobile.a */,
+			);
+			path = PayPalMobile;
+			sourceTree = "<group>";
+		};
 		1A961114212EA29600577FE9 = {
 			isa = PBXGroup;
 			children = (
+				1A545D03213649E400C5133A /* 导入前看一下 */,
 				1A96111F212EA29600577FE9 /* LWPayDemo */,
-				1A961138212EA29800577FE9 /* LWPayDemoTests */,
-				1A961143212EA29800577FE9 /* LWPayDemoUITests */,
 				1A96111E212EA29600577FE9 /* Products */,
+				1A545CB521363DBA00C5133A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,30 +359,12 @@
 			path = LWPayDemo;
 			sourceTree = "<group>";
 		};
-		1A961138212EA29800577FE9 /* LWPayDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				1A961139212EA29800577FE9 /* LWPayDemoTests.m */,
-				1A96113B212EA29800577FE9 /* Info.plist */,
-			);
-			path = LWPayDemoTests;
-			sourceTree = "<group>";
-		};
-		1A961143212EA29800577FE9 /* LWPayDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1A961144212EA29800577FE9 /* LWPayDemoUITests.m */,
-				1A961146212EA29800577FE9 /* Info.plist */,
-			);
-			path = LWPayDemoUITests;
-			sourceTree = "<group>";
-		};
 		1A961190212FCC7900577FE9 /* XBPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				1A961191212FCC7900577FE9 /* newpay.a */,
-				1A961192212FCC7900577FE9 /* LWPayHeader.h */,
 				1A961193212FCC7900577FE9 /* LWPayManager.h */,
+				1A545D052136718800C5133A /* LWPay */,
+				1A545D00213645A700C5133A /* Libs */,
 			);
 			path = XBPaySDK;
 			sourceTree = "<group>";
@@ -253,7 +474,12 @@
 			files = (
 				1A96112D212EA29700577FE9 /* LaunchScreen.storyboard in Resources */,
 				1A96112A212EA29700577FE9 /* Assets.xcassets in Resources */,
+				1A545CF52136423C00C5133A /* AlipaySDK.bundle in Resources */,
+				1A545CF92136423C00C5133A /* README.mdown in Resources */,
+				1A545D04213649E400C5133A /* 导入前看一下 in Resources */,
 				1A961128212EA29700577FE9 /* Main.storyboard in Resources */,
+				1A545CF82136423C00C5133A /* LICENSE in Resources */,
+				1A545CFB2136423C00C5133A /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +505,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A961125212EA29700577FE9 /* ViewController.m in Sources */,
+				1A545CFC2136423C00C5133A /* LWPayAppDelegate.m in Sources */,
+				1A545CFA2136423C00C5133A /* MBProgressHUD+Extension.m in Sources */,
+				1A545CF42136423C00C5133A /* LWPayManager.m in Sources */,
+				1A545CF22136423C00C5133A /* UIApplication+HookSetDelegate.m in Sources */,
+				1A545CEF2136423C00C5133A /* NSObject+MRInjectionLogicKey.m in Sources */,
+				1A545CF72136423C00C5133A /* MBProgressHUD.m in Sources */,
+				1A545CF02136423C00C5133A /* MRExtendClass.m in Sources */,
 				1A961130212EA29700577FE9 /* main.m in Sources */,
 				1A961122212EA29600577FE9 /* AppDelegate.m in Sources */,
+				1A545CF12136423C00C5133A /* MRCheckSuper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +522,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A96113A212EA29800577FE9 /* LWPayDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +529,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A961145212EA29800577FE9 /* LWPayDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,10 +682,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86WYGE98BR;
+				DEVELOPMENT_TEAM = A2DH2P4792;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/AliSDK",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/AliSDK",
 				);
 				INFOPLIST_FILE = LWPayDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -463,10 +695,17 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/WechatOpenSDK/WechatSDK1.8.2",
 					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/WechatOpenSDK/WechatSDK1.8.2",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/PayPal/PayPalMobile",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/PayPalMobile",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemo;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.qiantumei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,10 +716,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86WYGE98BR;
+				DEVELOPMENT_TEAM = A2DH2P4792;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/AliSDK",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/AliSDK",
 				);
 				INFOPLIST_FILE = LWPayDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -490,10 +729,17 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LWPayDemo/PayModel_1/WechatOpenSDK/WechatSDK1.8.2",
 					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/WechatOpenSDK/WechatSDK1.8.2",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/PayPal/PayPalMobile",
+					"$(PROJECT_DIR)/LWPayDemo/XBPaySDK/Libs/PayPalMobile",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.LWPayDemo;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.qiantumei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

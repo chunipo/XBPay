@@ -1,0 +1,31 @@
+##导入：
+
+1.需要自己在 info 里配置 URLTYPES；
+2.需要在 info 里添加这一段代码 ：
+
+<key>LSApplicationQueriesSchemes</key>
+<array>
+<string>alipayauth</string>
+<string>alipay</string>
+<string>weixin</string>
+<string>wechat</string>
+</array>
+
+3.需要导入的静态库按照现在工程的文件夹里已导入的来即可；
+4.支付模块即拷贝 XBPaySDK 文件夹到工程；
+
+##使用：
+
+1.在 appdelegate 中使用 - (void)addAlipayKey:(NSString *)alipayKey wxKey:(NSString *)wxKey paypalProductKey:(NSString *)paypalProductKey paypalReleseKey:(NSString *)paypalReleseKey; 方法添加必要的数据；
+
+2.在支付的界面，调用两个个方法即可完成调起+结果回调一条龙的处理，以支付宝为例
+ * 首先调起支付： - (void)submitAlipayOrder:(NSString *)payOrder;
+* 处理回调： @property (nonatomic, copy) void (^wxPayHandle)(NSString *code);
+
+
+##注意
+
+1.不需要再在 appdelegate 的代理中处理支付结果回调
+2.如果需要集成 paypal 支付，需要在 Other Link Flags 下添加两个：-ObjC,-lc++
+
+
